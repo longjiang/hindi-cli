@@ -13,7 +13,16 @@ export default new Router({
     {
       path: '/bookmarklet',
       name: 'bookmarklet',
-      component: () => import('./views/Bookmarklet.vue')
+      component: () => import('./views/Bookmarklet.vue'),
+      meta: {
+        title: 'Hindi Romanization (Transliteration/Transcription) Bookmarklet | Hindi Zero to Hero',
+        metaTags: [
+          {
+            name: 'description',
+            content: 'Connect with various Chinese-learning communities.'
+          }
+        ]
+      }
     }
   ]
 })
