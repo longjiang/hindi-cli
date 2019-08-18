@@ -52,6 +52,16 @@
               </li>
             </ol>
           </div>
+          <p class="mt-4">
+            The transliteration tries to follow the
+            <a
+              href="https://en.wikipedia.org/wiki/International_Alphabet_of_Sanskrit_Transliteration"
+              >IAST standard</a
+            >
+            (International Alphabet of Sanskirt Transliteration)
+            <em>except</em> we remove the final vowel “a” as the “a” is almost
+            never pronounced.
+          </p>
           <h5>Before:</h5>
           <img
             src="@/assets/img/hindi-annotation-bookmarklet-before.png"
